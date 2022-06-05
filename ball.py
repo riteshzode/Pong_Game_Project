@@ -30,6 +30,7 @@ class Ball(Turtle):
         self.move_speed *= 0.9
         # self.xmove = self.xmove * -1
 
+    # this function will reset tha ball to center
     def ball_reset(self):
         self.goto(0, 0)
         self.move_speed = 0.1
